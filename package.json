@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-d-centralize",
+  "version": "0.0.1",
+  "description": "Shareable ESLint configuration used at d-centralize.",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-centralize/eslint-config-d-centralize.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-centralize/eslint-config-d-centralize/issues"
+  },
+  "homepage": "https://github.com/d-centralize/eslint-config-d-centralize#readme"
+}
