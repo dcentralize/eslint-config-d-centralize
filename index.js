@@ -216,7 +216,6 @@ const rules = {
     2,
     2,
     {
-      MemberExpression: 0,
       SwitchCase: 1
     }
   ],
