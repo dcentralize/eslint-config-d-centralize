@@ -251,7 +251,7 @@ const rules = {
   'max-params': 0,
   'max-statements-per-line': 0,
   'max-statements': 0,
-  'multiline-ternary': 2,
+  'multiline-ternary': 0,
   'new-cap': 2,
   'new-parens': 2,
   'newline-after-var': 0,
