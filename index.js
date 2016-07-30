@@ -251,7 +251,7 @@ const rules = {
   'max-params': 0,
   'max-statements-per-line': 0,
   'max-statements': 0,
-  'multiline-ternary': 2,
+  'multiline-ternary': 0,
   'new-cap': 2,
   'new-parens': 2,
   'newline-after-var': 0,
@@ -277,6 +277,7 @@ const rules = {
   'no-plusplus': 0,
   'no-restricted-syntax': 0,
   'no-spaced-func': 2,
+  'no-tabs': 2,
   'no-ternary': 0,
   'no-trailing-spaces': 2,
   'no-underscore-dangle': 0,
@@ -361,4 +362,4 @@ const rules = {
 
 module.exports = {
   rules
-}
+};
