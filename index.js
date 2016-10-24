@@ -14,7 +14,7 @@ const rules = {
   'no-extra-boolean-cast': 2,
   'no-extra-parens': [
     2,
-    'all'
+    'functions'
   ],
   'no-extra-semi': 2,
   'no-func-assign': 2,
@@ -207,7 +207,10 @@ const rules = {
   'func-names': 0,
   'func-style': [
     2,
-    'declaration'
+    'declaration',
+    {
+      allowArrowFunctions: true
+    }
   ],
   'id-blacklist': 0,
   'id-length': 0,
