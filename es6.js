@@ -56,6 +56,7 @@ const rules = Object.assign({
   ],
   'prefer-arrow-callback': 2,
   'prefer-const': 2,
+  'prefer-numeric-literals': 2,
   'prefer-reflect': 2,
   'prefer-rest-params': 2,
   'prefer-spread': 2,
@@ -66,6 +67,7 @@ const rules = Object.assign({
     'never'
   ],
   'sort-imports': 2,
+  'symbol-description': 2,
   'template-curly-spacing': [
     2,
     'never'

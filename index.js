@@ -21,14 +21,15 @@ const rules = {
   'no-inner-declarations': 2,
   'no-invalid-regexp': 2,
   'no-irregular-whitespace': 2,
-  'no-negated-in-lhs': 2,
   'no-obj-calls': 2,
   'no-prototype-builtins': 0,
   'no-regex-spaces': 2,
   'no-sparse-arrays': 2,
+  'no-template-curly-in-string': 0,
   'no-unexpected-multiline': 2,
   'no-unreachable': 2,
   'no-unsafe-finally': 2,
+  'no-unsafe-negation': 2,
   'use-isnan': 2,
   'valid-jsdoc': 0,
   'valid-typeof': 2,
@@ -43,6 +44,7 @@ const rules = {
   ],
   'array-callback-return': 0,
   'block-scoped-var': 2,
+  'class-methods-use-this': 2,
   complexity: 0,
   'consistent-return': 0,
   curly: [
@@ -71,6 +73,7 @@ const rules = {
   'no-extra-label': 2,
   'no-fallthrough': 2,
   'no-floating-decimal': 2,
+  'no-global-assign': 2,
   'no-implicit-coercion': 2,
   'no-implicit-globals': 0,
   'no-implied-eval': 2,
@@ -82,7 +85,6 @@ const rules = {
   'no-magic-numbers': 0,
   'no-multi-spaces': 2,
   'no-multi-str': 2,
-  'no-native-reassign': 2,
   'no-new-func': 2,
   'no-new-wrappers': 2,
   'no-new': 0,
@@ -91,6 +93,7 @@ const rules = {
   'no-param-reassign': 0,
   'no-proto': 2,
   'no-redeclare': 2,
+  'no-restricted-properties': 0,
   'no-return-assign': 2,
   'no-script-url': 2,
   'no-self-assign': 2,
@@ -157,6 +160,7 @@ const rules = {
   ],
   'no-new-require': 2,
   'no-path-concat': 2,
+  'no-process-env': 0,
   'no-process-exit': 2,
   'no-restricted-modules': 0,
   'no-sync': 2,
@@ -204,6 +208,8 @@ const rules = {
   ],
   'consistent-this': 0,
   'eol-last': 2,
+  'func-call-spacing': 2,
+  'func-name-matching': 2,
   'func-names': 0,
   'func-style': [
     2,
@@ -219,7 +225,8 @@ const rules = {
     2,
     2,
     {
-      SwitchCase: 1
+      SwitchCase: 1,
+      MemberExpression: 1
     }
   ],
   'jsx-quotes': 0,
@@ -237,8 +244,10 @@ const rules = {
       after: true
     }
   ],
+  'line-comment-position': 0,
   'linebreak-style': 2,
   'lines-around-comment': 0,
+  'lines-around-directive': 0,
   'max-depth': 0,
   'max-len': [
     2,
@@ -279,7 +288,6 @@ const rules = {
   'no-new-object': 2,
   'no-plusplus': 0,
   'no-restricted-syntax': 0,
-  'no-spaced-func': 2,
   'no-tabs': 2,
   'no-ternary': 0,
   'no-trailing-spaces': 2,
@@ -327,7 +335,7 @@ const rules = {
     }
   ],
   semi: 2,
-
+  'sort-keys': 0,
   'sort-vars': [
     2,
     {

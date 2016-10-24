@@ -4,10 +4,10 @@
   "description": "Shareable ESLint configuration used at d-centralize.",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^3.2.0"
+    "eslint": "^3.8.1"
   },
   "devDependencies": {
-    "eslint": "^3.2.0"
+    "eslint": "^3.8.1"
   },
   "scripts": {
     "test": "eslint ."
