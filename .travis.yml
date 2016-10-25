@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - node
+- node
+deploy:
+  provider: npm
+  email: remcohaszing@gmail.com
+  api_key:
+    secure: t/FHG6eM/6Ltgkj02lVQrWTx2seFpGsj6FbMXr/wGEBOpf6hs1zdFX/OdrdiLaK4dAJc6sNYPLaLe5NWfwl/Jp/yx46odZxzHei7Y9zLCVrl7JbXGcf3wgDKenM970UWAvIOFUsHwRArMVyabx2PSWPthy0BE/MjYsEdIOEpvZe6tykdxceJ1pmBnGlMo22sfTXH7IZZ0gpYC3Mf0J1OOLZl8jyAx+j2OrLRjbBqcXhFzdawChHpzAIPcD8UTZOoZtB+Nmd4n2cECFVluu7cWhRN/An5O3maH5a4RSRK44qPZViDVB4eiltiBKLRgZVRPZBz1mUzbxVg4tKTtqbU9KaOvQsnwmrsozGCr9mqlT1j1JHuU0Hn3zcBHTQd0bmGHThv65SzCfr/8JB0DBeOTdyp4yL5H/mMeAYH6U/IenS/JVAI7+o3pOGeNWO0657YKVVcgeDC9T4s+DbfutXD1BFyOnZdGmQ4aWsr+45GeKdkhSDkzZ5zAA1jyB9TKMnBk2hHE1ggGhMHXW5I0JlFm9N8wfFJmT3fFTNd3m/edq3qoNrABEkwmkQuirGKhzsaUGz/SS7N2IC/IKGD48Cfj9DUSTdGjXNpX2FwQxvt2DlDyiQ9H1kQBcyfKQNCPlAvxS7XsXkucaQFVW+0QK03i3tYlarIRmr11kP/rY628hc=
+  on:
+    tags: true
+    repo: dcentralize/eslint-config-d-centralize
