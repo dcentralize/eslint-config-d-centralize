@@ -42,7 +42,7 @@ const rules = Object.assign({
   'no-confusing-arrow': 0,
   'no-const-assign': 2,
   'no-dupe-class-members': 2,
-  'no-duplicate-imports': 2,
+  'no-duplicate-imports': 0,
   'no-new-symbol': 2,
   'no-restricted-imports': 0,
   'no-this-before-super': 2,
@@ -56,6 +56,7 @@ const rules = Object.assign({
   ],
   'prefer-arrow-callback': 2,
   'prefer-const': 2,
+  'prefer-numeric-literals': 2,
   'prefer-reflect': 2,
   'prefer-rest-params': 2,
   'prefer-spread': 2,
@@ -66,6 +67,7 @@ const rules = Object.assign({
     'never'
   ],
   'sort-imports': 2,
+  'symbol-description': 2,
   'template-curly-spacing': [
     2,
     'never'
