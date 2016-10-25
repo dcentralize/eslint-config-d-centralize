@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/d-centralize/eslint-config-d-centralize.git"
+    "url": "git+https://github.com/dcentralize/eslint-config-d-centralize.git"
   },
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
   "author": "Remco Haszing <remcohaszing@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/d-centralize/eslint-config-d-centralize/issues"
+    "url": "https://github.com/dcentralize/eslint-config-d-centralize/issues"
   },
-  "homepage": "https://github.com/d-centralize/eslint-config-d-centralize#readme"
+  "homepage": "https://github.com/dcentralize/eslint-config-d-centralize#readme"
 }
