@@ -7,7 +7,7 @@
 [![devDependency Status](https://img.shields.io/david/dev/dcentralize/eslint-config-d-centralize.svg)](https://david-dm.org/dcentralize/eslint-config-d-centralize/?type=dev)
 [![peerDependency Status](https://img.shields.io/david/peer/dcentralize/eslint-config-d-centralize.svg)](https://david-dm.org/dcentralize/eslint-config-d-centralize/?type=peer)
 
-This is a very opinionated shareable ESLint configuration. The goal of this project is to enforce a strict coding style at [d-centralize](http://d-centralize.nl) projects. This project is kept up-to-date with the latest and greatest ESLint [rules](http://eslint.org/docs/rules).
+This is a very opinionated shareable ESLint configuration. The goal of this project is to enforce a strict coding style at [d-centralize](http://d-centralize.nl) projects.
 
 
 ## Installation
