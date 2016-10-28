@@ -44,7 +44,7 @@ const rules = {
   ],
   'array-callback-return': 0,
   'block-scoped-var': 2,
-  'class-methods-use-this': 2,
+  'class-methods-use-this': 0,
   complexity: 0,
   'consistent-return': 0,
   curly: [
