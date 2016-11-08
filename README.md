@@ -37,3 +37,24 @@ root: true
 
 extends: d-centralize
 ```
+
+#### React preset
+
+This preset uses [eslint-plugin-react][eslint-plugin-react]
+
+```sh
+npm install --save-dev eslint-plugin-react
+```
+
+```yaml
+root: true
+
+extends: d-centralize/react
+
+settings:
+  react:
+    version: '15.0'
+```
+
+
+[eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
