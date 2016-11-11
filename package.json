@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-d-centralize",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Shareable ESLint configuration used at d-centralize.",
   "main": "index.js",
   "peerDependencies": {
