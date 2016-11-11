@@ -12,8 +12,10 @@ const env = Object.assign({}, es6.env, {
 
 
 const parserOptions = Object.assign({}, es6.parserOptions, {
-  experimentalObjectRestSpread: true,
-  jsx: true
+  ecmaFeatures: {
+    experimentalObjectRestSpread: true,
+    jsx: true
+  }
 });
 
 
@@ -28,7 +30,9 @@ const rules = Object.assign({}, es6.rules, {
   'react/forbid-component-props': [
     2,
     {
-      forbid: 'style'
+      forbid: [
+        'style'
+      ]
     }
   ],
   'react/forbid-prop-types': 2,
