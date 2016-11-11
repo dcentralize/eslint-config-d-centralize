@@ -30,7 +30,9 @@ const rules = Object.assign({}, es6.rules, {
   'react/forbid-component-props': [
     2,
     {
-      forbid: 'style'
+      forbid: [
+        'style'
+      ]
     }
   ],
   'react/forbid-prop-types': 2,
